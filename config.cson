@@ -1,0 +1,40 @@
+"*":
+  "atom-autocomplete-php":
+    binComposer: "/usr/bin/composer"
+    binPhp: "/usr/bin/php"
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
+  "atom-package-deps":
+    ignored: []
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "language-hyperlink"
+      "hyperclick"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/home/lounis/rd00"
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "nexus-syntax"
+    ]
+  editor:
+    fontSize: 13
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "47027400-d039-4770-a373-01724427289c"
+  "goto-definition": {}
+  "linter-phpcs":
+    codeStandardOrConfigFile: "Symfony2"
+    executablePath: "/usr/bin/phpcs"
+    ignorePatterns: [
+      "**/*.blade.php"
+      "**/*.twig.php"
+      "**/*.py"
+    ]
+  "linter-ui-default": {}
